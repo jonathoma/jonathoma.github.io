@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 
-<embed src="http://jonathoma.github.io/resume/Thomas_Jonathan_Resume.pdf" width="500" height="375" type='application/pdf'>
+<embed src="https://jonathoma.github.io/resume/Thomas_Jonathan_Resume.pdf" width="500" height="375" type='application/pdf'>
 
 <object data="http://jonathoma.github.io/resume/Thomas_Jonathan_Resume.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="http://jonathoma.github.io/resume/Thomas_Jonathan_Resume.pdf">
