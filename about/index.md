@@ -1,4 +1,7 @@
 ---
+layout: page
+title: about
+---
 
 I grew up in [Grand Rapids, MI](http://www.google.com/maps/place/Grand+Rapids,+MI/), where I attended [Forest Hills Eastern High School](https://www.fhps.net/high-schools/eastern/). After graduating in 2015, I have since moved to Ann Arbor, MI to attend school at the University of Michigan, where I am pursuing a double major in Mathematics and Computer Science with a minor in Philosophy.
 
