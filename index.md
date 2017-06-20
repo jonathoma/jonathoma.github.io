@@ -1,6 +1,7 @@
-<div class="blurb">
-	<h1>Hi there, I'm Jonathan Thomas!</h1>
-	<p>I'm currently a computer science and mathematics student at the University of Michigan - Ann Arbor.</p>
-	<p> <a href="/about">Read more about me.</a> </p>
-	<p> <a href="/resume">Resume</a> </p>
-</div>
+## Welcome to my personal website!
+
+I am a current [computer science](http://eecs.umich.edu/) and [mathematics](https://lsa.umich.edu/math) student at the University of Michigan - Ann Arbor.
+
+[About me](https://jonathoma.github.io/about)
+
+[Resume](https://jonathoma.github.io/resume)
