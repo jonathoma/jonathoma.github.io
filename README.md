@@ -4,4 +4,4 @@ I am a current [computer science](http://eecs.umich.edu/) and [mathematics](http
 
 [About me](https://jonathoma.github.io/about)
 
-[Resume](https://jonathoma.github.io/resume)
+[Resume](https://github.com/jonathoma/jonathoma.github.io/blob/master/resume/Thomas_Jonathan_Resume.pdf)
