@@ -1,12 +1,12 @@
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
 # Setup
 title:               Jonathan Thomas
 tagline:             Computer Science / Mathematics / Philosophy
-baseurl:             http://jonathoma.github.io/
+url:                 http://jonathoma.github.io/
+paginate:            1
+baseurl:             /
 
 # Assets
 #
@@ -22,6 +22,12 @@ author:
   email:             jonthoma@umich.edu
 
 # Custom vars
-version:             2.0.0
+version:             1.0.0
 github:              jonathoma
-repo:                https://github.com/poole/poole
+repo:                https://github.com/jonathoma/
+
+pages_list:       
+  About: '/about'
+  Projects: '/projects'
+  GitHub : 'https://github.com/jonathoma'
+  Resume: '/resume'
