@@ -13,7 +13,7 @@ baseurl:          /
 plugins:          [jekyll-paginate]
 author:
   name:           'Jonathan Thomas'
-paginate:         1
+paginate:         5
 
 # Custom vars
 version:          1.0.0
