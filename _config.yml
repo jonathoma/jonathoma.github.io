@@ -2,12 +2,11 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Jonathan Thomas
+tagline:             Computer Science / Mathematics / Philosophy
+url:                 github.com/jonathoma
 paginate:            1
 baseurl:             "http://jonathoma.github.io/poole/"
 
@@ -20,9 +19,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jonathan Thomas
+  url:               https://twitter.com/jonathoma
+  email:             jonthoma@umich.edu
 
 # Custom vars
 version:             2.0.0
