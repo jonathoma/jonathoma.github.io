@@ -6,8 +6,6 @@ permalink:           pretty
 # Setup
 title:               Jonathan Thomas
 tagline:             Computer Science / Mathematics / Philosophy
-url:                 github.com/jonathoma
-paginate:            1
 baseurl:             "http://jonathoma.github.io/poole/"
 
 # Assets
@@ -25,5 +23,5 @@ author:
 
 # Custom vars
 version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+github:              jonathoma
+repo:                https://github.com/poole/poole
