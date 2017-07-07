@@ -1,33 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-permalink:           pretty
+permalink:        pretty
 
 # Setup
-title:               Jonathan Thomas
-tagline:             Computer Science / Mathematics / Philosophy
-url:                 http://jonathoma.github.io/
-paginate:            1
-baseurl:             /
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
+title:            Jonathan Thomas
+tagline:          'Computer Science / Math / Philosophy'
+description:      'Current computer science and mathematics student at the University of Michigan - Ann Arbor.'
+url:              http://jonathoma.github.io
+baseurl:          /
+plugins:          [jekyll-paginate]
 author:
-  name:              Jonathan Thomas
-  url:               https://twitter.com/jonathoma
-  email:             jonthoma@umich.edu
+  name:           'Jonathan Thomas'
+paginate:         1
 
 # Custom vars
-version:             1.0.0
-github:              jonathoma
-repo:                https://github.com/jonathoma/
+version:          1.0.0
 
-pages_list:       
-  About: '/about'
-  Projects: '/projects'
-  GitHub : 'https://github.com/jonathoma'
-  Resume: '/resume'
+github:
+  repo:           https://github.com/jonathoma
+
+twitter:          https://twitter.com/jonathoma
+
+linkedin:         https://www.linkedin.com/in/jonathoma/
