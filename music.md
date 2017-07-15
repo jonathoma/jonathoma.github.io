@@ -7,7 +7,7 @@ I am a self proclaimed music nerd, and I love listening to all types of music! Y
 
 
 Follow me on Spotify below: 
-<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:jonathanthomas3&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:1246063368&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 
 
 ![5x5 of Top All Time Listens on Last.fm](../public/img/collage.jpeg)
