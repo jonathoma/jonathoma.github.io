@@ -5,9 +5,12 @@ title: Music
 
 I am a self proclaimed music nerd, and I love listening to all types of music! You can find some of the stuff I've been listening to recently over at either my [Spotify](https://open.spotify.com/user/1246063368) or [Last.fm](https://www.last.fm/user/jonathanthomas3) accounts. Here's a collage of some of my favorite albums of all time, as well as a Spotify playlist I try to keep updated with my current recommendations!
 
+Follow me on Spotify below: 
+<center>
+<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:qlmhuge&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+</center>
+
 ![5x5 of Top All Time Listens on Last.fm](../public/img/collage.jpeg)
-
-
 
 Current recommendations:
 <center>
