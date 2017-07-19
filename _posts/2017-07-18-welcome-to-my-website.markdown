@@ -8,6 +8,7 @@ This website will be used to track my personal projects as well as serve as a ce
 In the spirit of EECS 381, I'd like to start by using the Meyers singleton to make sure the initialization of this site won't let any copycats follow suit.
 
 {% highlight c++ %}
+// Meyers Singleton implementation of Website
 class Website
 {
 public:
@@ -21,7 +22,6 @@ private:
     Website();
     ~Website();
 }
-#=> Creates a single website.
 {% endhighlight %}
 
 I hope you enjoy any posts to come! Feel free to explore the rest of the site using the links on the right.
