@@ -11,15 +11,17 @@ In the spirit of EECS 381, I'd like to start by using the Meyers singleton to ma
 class Website
 {
 public:
-    Website& get_instance() 
+    static Website& get_instance() 
     {
         static Website site;
         return site;
     }
 
 private:
-    Website() {}
+    Website();
+    ~Website();
 }
 #=> Creates a single website.
 {% endhighlight %}
 
+I hope you enjoy any posts to come! Feel free to explore the rest of the site using the links on the right.
