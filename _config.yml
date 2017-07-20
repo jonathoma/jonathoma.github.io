@@ -8,7 +8,7 @@ permalink:        pretty
 title:            Jonathan Thomas
 tagline:          'Computer Science / Math / Philosophy'
 description:      'Current computer science and mathematics student at the University of Michigan - Ann Arbor.'
-url:              http://jonathoma.github.io
+url:              https://jonathoma.github.io
 baseurl:          /
 plugins:          [jekyll-paginate]
 author:
