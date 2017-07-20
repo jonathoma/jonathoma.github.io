@@ -3,7 +3,7 @@ layout: page
 title: Music
 ---
 
-I am a self proclaimed music nerd, and I love listening to all types of music! You can find some of the stuff I've been listening to recently over at either my [Spotify](https://open.spotify.com/user/1246063368) or [Last.fm](https://www.last.fm/user/jonathanthomas3) accounts. Here's a collage of some of my favorite albums of all time, as well as a Spotify playlist I try to keep updated with my current recommendations! You can also check out my [song of the day]({{site.url}}/songoftheday), a song recommendation that tracks my recent listens and refreshes daily.
+I am a self proclaimed music nerd, and I love listening to all types of music! You can find some of the stuff I've been listening to recently over at either my [Spotify](https://open.spotify.com/user/1246063368) or [Last.fm](https://www.last.fm/user/jonathanthomas3) accounts. Here's a collage of some of my favorite albums of all time, as well as a Spotify playlist I try to keep updated with my current recommendations! You can also check out my [song of the day]({{site.url}}songoftheday), a song recommendation that tracks my recent listens and refreshes daily.
 
 
 Current recommendations:
