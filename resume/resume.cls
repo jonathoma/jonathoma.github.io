@@ -440,7 +440,7 @@
 \let\@@section\relax
 \def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let\@@section\unboxed@sectiontitle\fi}
 %\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
-\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.1in}\let\@@section\boxed@sectiontitle\fi}
+\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.05in}\let\@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFAULTS: (some of them)
@@ -823,8 +823,8 @@
 %           and res.cls class by Michael DeCorte.
 %           I have merged these for educational purposes only.
 
-\oddsidemargin -11mm
-\evensidemargin -11mm
+\oddsidemargin -10mm
+\evensidemargin -10mm
 %\textwidth=150mm
 \textwidth=154mm
 \itemsep=0cm
@@ -848,7 +848,7 @@
       \setlength{\leftmargin}{0.25in}}}{\end{list}}
 
 %\newcommand{\mysidestyle}{\footnotesize\sc}
-\newcommand{\mysidestyle}{\small\sc}
+\newcommand{\mysidestyle}{\sc}
 \newcommand{\myheadingstyle}{\sl}
 \newcommand{\mysubheadingstyle}{\sl}
 
