@@ -9,8 +9,8 @@ title:            Jonathan Thomas
 tagline:          'Computer Science / Math / Philosophy'
 description:      'Current computer science and mathematics student at the University of Michigan - Ann Arbor.'
 url:              https://jonathoma.github.io/
-plugins:          [jekyll-paginate]
-author:
+plugins:          [jekyll-paginate, jekyll-seo-tag]
+author:           
   name:           'Jonathan Thomas'
 paginate:         5
 
@@ -21,5 +21,7 @@ github:
   repo:           https://github.com/jonathoma
 
 twitter:          https://twitter.com/jonathoma
+twitter:username: jonathoma
+twitter:creator:  jonathoma
 
 linkedin:         https://www.linkedin.com/in/jonathoma/
