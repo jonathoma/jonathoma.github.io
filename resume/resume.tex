@@ -1,118 +1,137 @@
+% !TEX TS-program = LuaLaTeX
 \documentclass[margin,line]{resume}
-\usepackage[hidelinks]{hyperref}
+
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{setspace}
+\usepackage{enumitem}
 
 \begin{document}
 \name{\vspace{-5mm} \Huge JONATHAN THOMAS \vspace{2.5mm}} {\hfill\textsl{\large JUNIOR, seeking INTERNSHIP}}
       
 \begin{resume}
-    \vspace{-3.5mm}
-    \section{\mysidestyle Contact\\Information}
-    \noindent Email: \url{jonthoma@umich.edu} \hfill LinkedIn: \url{linkedin.com/in/jonathoma} \\
-    \noindent Phone: \url{(616)-916-2510} \hfill Website: \url{jonathoma.github.io} \\ 
-    \vspace{-2.5mm}
-    
-\sectionbreak
-\vspace{-3.5mm}
-    \section{\mysidestyle Summary}
-    Computer science and mathematics \textbf{junior seeking a summer 2018 internship} in order to gain experience in software engineering, with emphasis on artificial intelligence and machine learning. \vspace{-2.5mm}\\ 
-    
-   \sectionbreak
-   \vspace{-2.5mm}
-    \section{\mysidestyle Education}
-
-    \textbf{University of Michigan \hfill Ann Arbor, MI} \\\vspace{1mm}%
-    \textsl{B.S.E. Computer Science and Honors Mathematics, Philosophy Minor} \hfill \textsl{Sep 2015 -- Apr 2019} \\
-    \textbf{GPA: 3.84 / 4.00} \\\vspace{-3.5mm}
-    \begin{itemize}    
-    \item Member of both Engineering Honors Program and LSA Honors
-    \item William J. Branstrom Freshman Prize, University Honors / Dean's List (all semesters)
-    \item Engineering Scholarship of Honor, Regents Merit Scholarship, National Merit Scholar
-    \end{itemize}
-    \vspace{-6mm}
-    \begin{center} \textbf{Current Coursework} \end{center}
-    \vspace{-3.5mm}
-    \begin{itemize}
-\begin{minipage}[t]{.66\linewidth}
-    \item Intro to Operating Systems (EECS 482)
-\end{minipage}%
-\begin{minipage}[t]{.5\linewidth}
-    \item Honors Algebra (MATH 493)
-\end{minipage}
-\end{itemize}
-
-\vspace{-10mm}
-    \begin{center} \textbf{Past Coursework} \end{center}
-    \vspace{-4mm}
-    \begin{itemize}
-    \begin{minipage}[t]{.66\linewidth}
-    \item Object Oriented and Advanced Programming (EECS 381)
-    \item Data Structures and Algorithms (EECS 281)
-    \item Intro to Computer Organization (EECS 370)
-    \item Fundamentals of Computer Science (EECS 376)
-\end{minipage}%
-\begin{minipage}[t]{.5\linewidth}
-    \item Intro to Topology (MATH 590)
-    \item Real Analysis (MATH 451)
-    \item Linear Algebra (MATH 217)
-    \item Ethics (PHIL 361)
-\end{minipage}
-\end{itemize}
-\vspace{-1.5mm}
-
-\sectionbreak
-\vspace{-2.5mm}
-    \section{\mysidestyle Experience}
-    
-    \textbf{JPMorgan Chase Digital \hfill New York, NY} \\\vspace{1mm}%
-    \textsl{Software Engineering Intern} \hfill \textsl{Summer 2017}
-    \begin{itemize}
-    \item Utilized machine learning tools on real time data streams to detect and intercept fraudulent behavior and created conditional rules to prevent further misuse. 
-    \item Provided code quality review for thousands of lines of Java code with suggestions for refactoring, eliminating duplicated code, and employing design patterns to increase readability.
-    \item Attained over 40\% increase in code coverage of new data transfer standard for financial data aggregators with Cucumber testing protocols.
-    \end{itemize}
-
-    \vspace{-2.5mm}
-    \textbf{University of Michigan \hfill Ann Arbor, MI} \\\vspace{1mm}%
-    \textsl{Proof Tutor} \hfill \textsl{Summer 2016 -- Present}
-    \begin{itemize}
-    \item Guide students in demonstrating rigorous proofs of fundamental theorems in linear algebra.
-    \end{itemize}
-
-    \vspace{-2.5mm}
-    \textbf{Synergy Broadband \hfill Ann Arbor, MI} \\\vspace{1mm}%
-    \textsl{Network Intern} \hfill \textsl{Summer 2016}
-    \begin{itemize}
-    \item Oversaw the redesign of company data center to implement an energy-efficient cooling system.
-    \item Communicated directly with business customers to ensure a smooth transition to new layout. 
-    \end{itemize}
-
-    \vspace{-2.5mm}
-    \textbf{Alternative Engineering, Inc \hfill Belmont, MI} \\\vspace{1mm}%
-    \textsl{Engineering Intern} \hfill \textsl{Summer 2015}
-    \begin{itemize}
-    \item Investigated growing fields in the materials handling industry in order to develop an effective business strategy for the company. 
-    \item Presented 8 weeks of research, data analysis, and recommendations to CEO of company.
-    \end{itemize}
-    \vspace{2.5mm}
-
-   \sectionbreak
-   \vspace{-2.5mm}
-   \section{\mysidestyle Activities}
-   \begin{flushright}
-   \vspace{-7.5mm}
-    Engineering Honors Student Advisory Board	\hfill  \textsl{Jan 2017 - Present} \\
-    Honors GO! New Zealand Volunteer \hfill \textsl{Apr 2017 - May 2017} \\
-    %Michigan Data Science Team \hfill \textsl{Sep 2016 - Present}\\
-    1\textsuperscript{st} Violin, Michigan Pops Orchestra and Campus Symphony Orchestra \hfill \textsl{Sep 2015 - Present}\\
-    Michigan Philosophy Club \hfill \textsl{Sep 2015 - Present}
-    \end{flushright}
-    \vspace{-1.5mm}
-    
-    \sectionbreak
-    \vspace{-2.5mm}
-    \section{\mysidestyle Skills}
-    \emph{Languages:} C\texttt{++}, C (main), Java (proficient), Python (familiar), Haskell (learning) \\
-    \emph{Other Technologies:} Bash, Cucumber, Git, Hystrix, \LaTeX, Maven, Splunk, Vim, Xcode \\
-    \emph{Foreign Languages:} Spanish (proficient) \\
-    \emph{Miscellaneous:}  Indie music enthusiast, vinyl and Modernist poetry collector, board game night host \end{resume}
+	\vspace{-3.5mm}
+	\section{\mysidestyle Contact\\Info}
+	\noindent \faEnvelope : \href{mailto:jonthoma@umich.edu}{\nolinkurl{jonthoma@umich.edu}} \hfill \faLinkedinSign : \href{https://linkedin.com/in/jonathoma}{\nolinkurl{linkedin.com/in/jonathoma}}\\
+	\noindent \faPhone : \href{tel:+1-616-916-2510}{\nolinkurl{(616)-916-2510}} \hfill \faGithub : \href{https://github.com/jonathoma}{\nolinkurl{github.com/jonathoma}} \\ 
+	\faHome : \ttfamily{2511 Black Horse Dr NE, Grand Rapids, MI 49505}\rmfamily \hfill  \faUser : \href{https://jonathoma.github.io}{\nolinkurl{jonathoma.github.io}} \\
+	\vspace{-2.5mm}
+	    
+	\sectionbreak
+	\vspace{-3.5mm}
+	\section{\mysidestyle Summary}
+	Computer science and mathematics \textbf{junior seeking a summer 2018 internship} in order to gain experience in software engineering with emphasis on applications of artificial intelligence and machine learning. \vspace{-2.5mm}\\ 
+	    
+	\sectionbreak
+	\vspace{-2.5mm}
+	\section{\mysidestyle Education}
+	
+	\textbf{University of Michigan \hfill Ann Arbor, MI} \\\vspace{1mm}%
+	\textsl{B.S.E. Computer Science and Honors Mathematics, Philosophy Minor} \hfill \textsl{Sep 2015 -- Apr 2019}\vspace{-1mm}\\
+	\textbf{GPA: 3.84 / 4.00} \\\vspace{-2.5mm}%
+	\begin{itemize}[leftmargin=4mm]
+		\item Engineering Scholarship of Honor, Regents Merit Scholarship, National Merit Scholar
+		\item William J. Branstrom Freshman Prize, University Honors / Dean's List (all semesters)
+	\end{itemize}
+	\vspace{-5mm}
+	\begin{center} \textbf{Current Coursework} \end{center}
+	\vspace{-3mm}
+	\small
+	\begin{itemize}[leftmargin=4mm]
+		\begin{minipage}[t]{.6\linewidth}
+			\item Introduction to Operating Systems (EECS 482)
+		\end{minipage}%
+		\begin{minipage}[t]{.5\linewidth}
+			\item Honors Algebra (MATH 493)
+		\end{minipage}%
+	\end{itemize}
+	\normalsize
+	\vspace{-8mm}
+	\begin{center} \textbf{Past Coursework} \end{center}
+	\vspace{-3mm}
+	\small
+	\begin{itemize}[leftmargin=4mm]
+		\begin{minipage}[t]{.6\linewidth}
+			\item Object Oriented and Advanced Programming (EECS 381)
+			\item Data Structures and Algorithms (EECS 281)
+			\item Introduction to Computer Organization (EECS 370)
+		\end{minipage}%
+		\begin{minipage}[t]{.5\linewidth}
+			\item Introduction to Topology (MATH 590)
+			\item Real Analysis (MATH 451)
+			\item Linear Algebra (MATH 217)
+		\end{minipage}%
+	\end{itemize}
+	\normalsize
+	\sectionbreak
+	\vspace{-2.5mm}
+	\section{\mysidestyle Experience}
+	    
+	\textbf{JPMorgan Chase Digital \hfill New York, NY} \\\vspace{1mm}%
+	\textsl{Software Engineering Intern} \hfill \textsl{Summer 2017}
+	\begin{itemize}[leftmargin=4mm]
+		\item Attained $\sim$40\% increase in code coverage of a new data transfer standard incorporating OAuth authorization for third party financial data aggregators by Cucumber testing protocols.
+		\item Helped design and implement new class infrastructure to ease access to a variety of Chase backend services from within testing code, leading to over 50\% increase in team test case productivity per week.
+		\item Provided code quality review for thousands of lines of Java code with suggestions for refactoring or eliminating duplicated code and employing design patterns to increase readability and extensibility.
+		\item Utilized machine learning tools on real time data streams to detect and intercept fraudulent and otherwise malicious behavior as well as creating conditional rules to prevent further misuse. 
+	\end{itemize}
+	
+	\vspace{-1.5mm}
+	\textbf{University of Michigan \hfill Ann Arbor, MI} \\\vspace{1mm}%
+	\textsl{Proof Tutor} \hfill \textsl{Summer 2016 -- Present}
+	\begin{itemize}[leftmargin=4mm]
+		\item Guide students in demonstrating rigorous proofs of fundamental theorems in linear algebra.
+	\end{itemize}
+	
+	\vspace{-1.5mm}
+	\textbf{Synergy Broadband \hfill Ann Arbor, MI} \\\vspace{1mm}%
+	\textsl{Network Intern} \hfill \textsl{Summer 2016}
+	\begin{itemize}[leftmargin=4mm]
+		\item Oversaw the redesign of company data center to implement a more energy-efficient design.
+		\item Communicated directly with C-level business customers to ensure a smooth transition to new layout. 
+	\end{itemize}
+	\vspace{1.5mm}
+	
+	\sectionbreak
+	\vspace{-2.5mm}
+	\section{\mysidestyle Projects}
+	%\textbf{Personal Website -} \href{https://jonathoma.github.io}{\nolinkurl{jonathoma.github.io}}  \hfill \textsl{Summer 2017}
+	%\begin{itemize}[leftmargin=4mm]
+		%\item Created website to host personal projects and general information about me. Gained exposure to HTML, CSS and basic web development.
+	%\end{itemize}
+	%\vspace{-2.5mm}
+	%\textbf{Project Euler}  \hfill \textsl{Summer 2017}
+	%\begin{itemize}[leftmargin=4mm]
+		%\item Solved Project Euler problems 1 - 100 in Haskell to learn more about functional programming.
+	%\end{itemize}
+	%\vspace{-2.5mm}
+	\textbf{Song of the Day \href{https://github.com/jonathoma/songoftheday}{\faGithub}}  \hfill \textsl{Summer 2017} \vspace{1mm}%
+	\begin{itemize}[leftmargin=4mm]
+		\item Used Spotify and Last.fm APIs to provide myself with a daily-updated, personalized song recommendation on my website.
+		%\item Currently working on using a deep neural network in order to enhance quality of recommendations.
+	\end{itemize}
+	\vspace{1.5mm}
+	   
+	\sectionbreak
+	\vspace{-2.5mm}
+	\section{\mysidestyle Activities}
+	\begin{flushright}
+		\vspace{-7.5mm}
+		Engineering Honors Student Advisory Board	\hfill  \textsl{Jan 2017 - Present} \\
+		Honors GO! New Zealand Volunteer \hfill \textsl{Apr 2017 - May 2017} \\
+		%Michigan Data Science Team \hfill \textsl{Sep 2016 - Present}\\
+		1\textsuperscript{st} Violin, Michigan Pops Orchestra and Campus Symphony Orchestra \hfill \textsl{Sep 2015 - Present}\\
+		Michigan Philosophy Club \hfill \textsl{Sep 2015 - Present}
+	\end{flushright}
+	\vspace{-1.5mm}
+	    
+	\sectionbreak
+	\vspace{-2.5mm}
+	\section{\mysidestyle Skills}
+	\emph{Languages:} C\texttt{++}, C (main), Java (proficient), Python (familiar), Haskell (learning) \\
+	\emph{Other Technologies:} Bash, Cucumber, Git, Hystrix, \LaTeX, Maven, Splunk, Vim, Xcode \\
+	\emph{Foreign Languages:} Spanish (proficient) \\
+	\emph{Miscellaneous:}  Indie music aficionado, vinyl and Modernist literature collector, veteran game night host
+	
+\end{resume}
 \end{document}
