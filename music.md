@@ -15,4 +15,4 @@ Current recommendations:
 </center>
 
 
-![5x5 of Top All Time Listens on Last.fm](../public/img/collage.jpeg)
+![5x5 of Top All Time Listens on Last.fm](../public/img/collage.jpeg "Wow, what a #cultured guy!")
