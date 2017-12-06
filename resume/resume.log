@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.5.24)  17 SEP 2017 22:59
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.5.24)  9 NOV 2017 21:43
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **resume.tex
@@ -368,7 +368,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.029 seconds
+luaotfload | main : fontloader loaded in 0.025 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -881,12 +881,12 @@ Here is how much of LuaTeX's memory you used:
  309 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 42 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 2:9634,3:199,4:1330,5:223,6:3173,7:20,8:10,9:189,10:319
+   avail lists: 2:9741,3:201,4:1339,5:228,6:3211,7:17,8:10,9:188,10:315
  22591 multiletter control sequences out of 65536+600000
  39 fonts using 2932135 bytes
  54i,4n,62p,1185b,319s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
-f></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.
+</usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
+f></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.
 otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman9-regula
 r.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmromanslant1
 0-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmrom
@@ -897,11 +897,12 @@ tawesome/FontAwesome.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/publ
 ic/lm/lmromancaps10-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/openty
 pe/public/lm/lmroman12-bold.otf></usr/local/texlive/2015/texmf-dist/fonts/openty
 pe/public/lm/lmromanslant12-regular.otf><</usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (1 page, 61393 bytes).
+ts/type1/public/amsfonts/cm/cmr10.pfb><</usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on resume.pdf (1 page, 68482 bytes).
 
-PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
