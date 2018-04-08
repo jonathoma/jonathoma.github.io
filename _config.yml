@@ -8,11 +8,11 @@ permalink:        pretty
 title:            Jonathan Thomas
 tagline:          'Computer Science / Math / Philosophy'
 description:      'Current computer science and mathematics student at the University of Michigan - Ann Arbor.'
-baseurl:          https://jonathoma.github.io/
+baseurl:          /
 url:              https://jonathoma.github.io/
 plugins:          [jekyll-paginate, jekyll-seo-tag]
-author:           Jonathan Thomas
-  name:           'Jonathan Thomas'
+author:
+  name:           Jonathan Thomas
 paginate:         5
 
 # Custom vars
