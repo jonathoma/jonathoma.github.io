@@ -1,1 +1,0 @@
-Hi! This is the github repo for my personal website, built using Github Pages, Jekyll, and Hyde. To learn more about me, please visit my site at <jonathoma.github.io>. You can also reach out to me with any questions you have about the site at <jonthoma@umich.edu>. Thanks!
